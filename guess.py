@@ -15,11 +15,11 @@ def main():
     # process
     if number == 5:
         # output
-        print("you guessed correct!")
+        print("You guessed correctly!")
 
     if number != 5:
         # output
-        print("you guessed wrong!")
+        print("You guessed wrong!")
 
     print("\nDone")
 
