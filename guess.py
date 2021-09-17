@@ -5,6 +5,9 @@
 # This Program guess a number between 0 - 9
 
 
+import constant
+
+
 def main():
     # This function guess a number between 0 - 9
 
@@ -13,11 +16,11 @@ def main():
     print("")
 
     # process
-    if number == 5:
+    if number == constant.CORRECT:
         # output
         print("You guessed correctly!")
 
-    if number != 5:
+    if number != constant.CORRECT:
         # output
         print("You guessed wrong!")
 
